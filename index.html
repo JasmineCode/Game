@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT Tentrem Jaya Sentosa</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        
+        header {
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            height: 40px;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 30px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            font-size: 16px;
+        }
+        
+        .hero {
+            text-align: center;
+            padding: 60px 0;
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            color: white;
+        }
+        
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        .hero p {
+            font-size: 20px;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+        
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 50px 0;
+        }
+        
+        .game-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .game-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .game-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .game-info {
+            padding: 20px;
+        }
+        
+        .game-info h3 {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        
+        .game-info p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        
+        .download-btn {
+            display: inline-block;
+            background-color: #6e8efb;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        
+        .footer-links a {
+            color: #aaa;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        
+        .copyright {
+            color: #777;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <section class="hero">
+        <div class="container">
+            <h1>Hyper-Casual Games for Everyone</h1>
+            <p>Discover our collection of fun, addictive mobile games that you can play anytime, anywhere.</p>
+        </div>
+    </section>
+    
+    <main class="container">
+        <div class="games-grid">
+            <!-- Game Card 1 -->
+            <div class="game-card">
+                <img src="https://play-lh.googleusercontent.com/8cEtJWKh8-dwqqsGDJmRw7rnxzrfOa1FmZoh4K36Ts9Ml1n343MNIdFjphZanx8mjCk=s256-rw" alt="Tangle Master 3D" class="game-image">
+                <div class="game-info">
+                    <h3>Stickman Axe 3D</h3>
+                    <p>Immersive role-playing games!</p>
+                    <a href="#" class="download-btn" target="_blank">Download</a>
+                </div>
+            </div>
+            
+            <!-- Game Card 2 -->
+            <div class="game-card">
+                <img src="https://play-lh.googleusercontent.com/V4QzaDbrHqBZ4NvioulxUI24qQGX7tgBHtuUHhPxvf5KTb6cZUheeTN2OxmwxySyWw=w240-h480-rw" alt="Hair Challenge" class="game-image">
+                <div class="game-info">
+                    <h3>Keep going down</h3>
+                    <p>Casual games are very simple!</p>
+                    <a href="#" class="download-btn" target="_blank">Download</a>
+                </div>
+            </div>
+            
+            <!-- Game Card 3 -->
+            <div class="game-card">
+                <img src="https://play-lh.googleusercontent.com/yz2YqhMZ4yay2QfRALFCyTVqUN_cVrr-oZWIFB8CSPNBal1kREMQRCvkK6D405mAzBc=w240-h480-rw" alt="Push'em All" class="game-image">
+                <div class="game-info">
+                    <h3>Germs Jail Catch</h3>
+                    <p>Push objects and clear the platform!</p>
+                    <a href="#" class="download-btn" target="_blank">Download</a>
+                </div>
+            </div>
+            
+            <!-- Game Card 4 -->
+            <div class="game-card">
+                <img src="https://play-lh.googleusercontent.com/yiZHNKXLTyYZLioJiXUffx41XKksYVBlh33ujjN9SpkHSbvJ2bofSQ-PwP_jHF60AsQ=w240-h480-rw" alt="Wood Tower" class="game-image">
+                <div class="game-info">
+                    <h3>Unblock And Fly</h3>
+                    <p>Manage the air traffic at the airport!</p>
+                    <a href="#" class="download-btn" target="_blank">Download</a>
+                </div>
+            </div>
+            
+
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Support</a>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+            </div>
+            <p class="copyright">© 2025 PT Tentrem Jaya Sentosa. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
