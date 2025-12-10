@@ -1,1 +1,5 @@
-123
+{
+betMultiple = 500000,
+ackpotAddition = "",
+rapidFireInfo = {},
+}
